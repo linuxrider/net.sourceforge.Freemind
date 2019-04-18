@@ -1,4 +1,4 @@
-app-id: org.freemind.Freemind
+app-id: net.sourceforge.Freemind
 runtime: org.freedesktop.Platform
 runtime-version: '18.08'
 sdk: org.freedesktop.Sdk
@@ -28,13 +28,13 @@ modules:
   - install -dm755 ${FLATPAK_DEST}/bin
   - install -m755 freemind.sh ${FLATPAK_DEST}/bin/freemind
   - install -t ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps -Dm644 76812-freemind_v0.4.svg
-  - install -t ${FLATPAK_DEST}/share/applications/ -Dm644 org.freemind.Freemind.desktop
+  - install -t ${FLATPAK_DEST}/share/applications/ -Dm644 net.sourceforge.Freemind.desktop
   sources:
   - type: file
     url: https://sourceforge.net/projects/freemind/freemind/1.0.1/freemind-bin-max-1.0.1.zip
     sha256: 005e815bf5d1867eadcaa89194df9952d986ace9eed0a3058c7ee6255799a60a
   - type: file
-    path: org.freemind.Freemind.desktop
+    path: net.sourceforge.Freemind.desktop
   - type: file
     path: 76812-freemind_v0.4.svg
 
