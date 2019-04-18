@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Freemind
+TryExec=freemind
+Exec=freemind %F
+Icon=org.freemind.Freemind.svg
+Terminal=false
+StartupNotify=true
+Categories=Productivity
